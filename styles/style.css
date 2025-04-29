@@ -1,0 +1,146 @@
+
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  /*Nav style kivabe korbo*/
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+  }
+  nav ul li{
+    list-style: none;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .Mary{
+    font-size: 45px;
+    font-weight: 800;
+  }
+  .Dark{
+    font-size: 20px;
+    color: #474747;
+  }
+  .span{
+    color: #FD6E0A;
+  }
+  .btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+    border: none;
+    cursor: pointer;
+  }
+  /* backgorund color */
+  .secondary-bg{
+     background-color: #FFF8F3;
+  }
+  /* main styles */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  /* banner */
+  .header{
+    background-image: url("../images/developer.png") , url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+  }
+  .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 150px;
+  }
+  .banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+  }
+  .banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+  }
+  .banner-description{
+    font-size: 18px;
+    color: #757575;
+  }
+  .banner-pic{
+    width: 584px;
+  }
+  .banner-content{
+    max-width: 584px;
+  }
+  /* about  */
+  .about-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+  }
+  .about-description{
+    font-size: 18px;
+    color: #757575;
+  }
+  .about{
+    padding: 130px 160px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 130px;
+  }
+  .item-description{
+    font-weight: bold;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  /* what i do */
+  .skills-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-top: 130px;
+  }
+  .skills-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+  }
+  .skills-container{
+    display: flex;
+    gap: 24px;
+  }
+  /* ei box shadow ta amra divo odder abba k ba j div ta bitor banaisi oitar bitor */
+  .skills-box{
+    padding: 30px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+  }
+  /* resume */
+  .resume-title{
+    font-size:35px ;
+    font-weight:bold ;
+    color:rgba(24, 24, 24, 1) ;
+    text-align: center;
+    margin-top: 130px;
+  }
+  .resume-column{
+    display: flex;
+  }
